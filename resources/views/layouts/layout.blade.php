@@ -25,6 +25,7 @@
   <link href="{{asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
   <link href="{{asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
   <link href="{{asset('assets/css/style.css') }}" rel="stylesheet">
+  @yield('addcss')
 </head>
 
 <body>
@@ -45,7 +46,7 @@
 
   <!-- Template Main JS File -->
   <script src="{{asset('assets/js/main.js') }}"></script>
-
+  @yield('addjs')
 </body>
 
 </html>
